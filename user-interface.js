@@ -5,7 +5,7 @@ document.getElementById("submit").onclick = function(){
     password = document.getElementById("Password").value;
     if(username && password){
         window.alert(`${username} updated successfully`)
-        window.location.href = "https://muhammedbadushakt.github.io/Rock-Papper-Scissors/"
+        window.location.href = "https://muhammedbadushakt.github.io/choose-page/"
     }
     console.log(username,password);
 }
