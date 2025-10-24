@@ -1,49 +1,87 @@
 body{
-    background-color: rgb(30, 30, 30);
+    background :linear-gradient(75deg,rgb(30, 30, 30),rgb(92, 92, 92));
     height: 100vh;
     margin: 0;
     display: flex;
-    justify-content: center; /* horizontal center */
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
+    
 }
 .us-dsgn{
-    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-family: cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-        "slnt" 0,
-        "CRSV" 0.5,
-        "ELSH" 0,
-        "ELXP" 0,
-        "SZP1" 0,
-        "SZP2" 0,
-        "XPN1" 0,
-        "XPN2" 0,
-        "YPN1" 0,
-        "YPN2" 0;
+    font-size: 120px;
+    color: rgba(163, 64, 202, 0.393);
+    
+
 }
 .userbox{
-    display:block;
-    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    width: 1900px;
+    height: 1500px;
     padding: 20px 10px;
+    background: linear-gradient(75deg,rgba(25, 25, 25, 0.1),rgb(5, 5, 5,0.1) );
     margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: rgb(201, 201, 201 , 0.8);
+    border-radius: 2%;
+}
+.Name{
+    width:1500px;
+    height: 90px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 227, 190, 0.238);
+    font-size: 60px;
+    font-family: cursive;
+    color: rgba(44, 44, 44, 0.8);
+    text-align:left;
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Name:hover{
+    background-color: rgba(255, 227, 190, 0.6);
+}
+.submit-wrapper{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 #submit{
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    padding: 3px;
-    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10%;
+    font-size: 50px;
+    font-family: cursive;
     border: none;
-    background-color: rgb(116, 77, 135,0.7);
+    background-color: rgb(116, 77, 135,0.19);
+    transform: scale(1.1);
     cursor: pointer;
     transition: 0.3s;
 
 
 }
 #submit:hover {
-    background-color: rgb(116, 77, 135,0.9);
+    background-color: rgb(116, 77, 135,0.5);
+    font-size: 60px;
+}
+#Register {
+    font-family: cursive;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 70%;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#Register:hover{
+       font-size: 75px;
+       color:  rgba(255, 255, 255, 0.5); 
 }
