@@ -12,7 +12,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 120px;
+    font-size: 3vh;
     color: rgba(163, 64, 202, 0.393);
     
 
@@ -22,25 +22,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 50px;
-    width: 1900px;
-    height: 1500px;
+    row-gap: 10px;
+    width: 50vw;
+    height: 50vh;
     padding: 20px 10px;
     background: linear-gradient(75deg,rgba(25, 25, 25, 0.1),rgb(5, 5, 5,0.1) );
     margin-bottom: 10px;
     border-radius: 2%;
 }
 .Name{
-    width:1500px;
-    height: 90px;
+    width:30vw;
+    height: 3vh;
     border: none;
-    border-radius: 20px;
+    border-radius: 9%;
     background-color: rgba(255, 227, 190, 0.238);
-    font-size: 60px;
+    font-size: 2.5vh;
     font-family: cursive;
     color: rgba(44, 44, 44, 0.8);
     text-align:left;
-    padding: 30px;
+    padding: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -54,10 +54,10 @@ body{
     width: 100%;
 }
 #submit{
-    width: 500px;
-    height: 200px;
+    width: 120px;
+    height: 50px;
     border-radius: 10%;
-    font-size: 50px;
+    font-size: 2.1vh;
     font-family: cursive;
     border: none;
     background-color: rgb(116, 77, 135,0.19);
@@ -69,11 +69,11 @@ body{
 }
 #submit:hover {
     background-color: rgb(116, 77, 135,0.5);
-    font-size: 60px;
+    font-size: 2vh;
 }
 #Register {
     font-family: cursive;
-    font-size: 70px;
+    font-size: 1.5vh;
     text-align: center;
     text-decoration: none;
     padding-left: 70%;
@@ -82,6 +82,6 @@ body{
     transition: 0.3s;
 }
 #Register:hover{
-       font-size: 75px;
+       font-size: 1.9vh;
        color:  rgba(255, 255, 255, 0.5); 
 }
